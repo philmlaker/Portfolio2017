@@ -1,0 +1,321 @@
+@font-face {
+    font-family: 'bebas';
+    src: url('../../fonts/BEBAS.woff');
+    src: url('../fonts/BEBAS.woff') format('eot'), url('../fonts/BEBAS.woff') format('woff'), url('../fonts/BEBAS.woff') format('truetype'), url('../fonts/BEBAS.woff') format('svg');
+}
+
+
+body {
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 29px;
+}
+
+.container{
+  margin-bottom: 80px;
+}
+
+.image1 {
+    background-color: #1F1F1E;
+    background-image: url("../images/flower.jpg");
+     height: 100%;
+
+}
+
+
+
+div.container-fluid {
+    background-color: #1b1b1b;
+}
+
+div.jumbotron {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0);
+    font-family: 'bebas' !important;
+    position: relative;
+
+}
+
+#paragraph{
+    background-color: rgba(241, 235, 223, 0.83);
+}
+
+h1 {
+    letter-spacing: 2px;
+    color: black !important;
+            -webkit-animation: neon 1.5s ease-in-out infinite alternate;
+    -moz-animation: neon 1.5s ease-in-out infinite alternate;
+    animation: neon 1.5s ease-in-out infinite alternate;
+}
+
+/*h1:hover {
+    -webkit-animation: neon2 1.5s ease-in-out infinite alternate;
+    -moz-animation: neon2 1.5s ease-in-out infinite alternate;
+    animation: neon2 1.5s ease-in-out infinite alternate;
+}*/
+
+h3 {
+    font-family: 'Homemade Apple' !important;
+    color: #bfa67c !important;
+}
+
+
+.crop {
+    width: 257px;
+    height: 250px;
+    overflow: hidden;
+    margin: auto;
+      
+         filter: blur(3px) grayscale(100%) sepia(20%) brightness(30%);
+}
+
+#pic {
+    height: 350px;
+    transform: translate(-48px, -27px);
+
+}
+
+
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    max-height: 70px;
+    background-color: #1b1b1b;
+    text-align: center;
+}
+
+#icons {
+    height: 50px;
+}
+
+#iconbox {
+    margin-top: 8px;
+}
+
+
+
+.navbar-header {
+    font-family: 'bebas' !important;
+}
+
+.navbar-right {
+    font-family: 'bebas' !important;
+}
+
+
+
+
+
+
+@-webkit-keyframes hvr-pulse-grow {
+    to {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+}
+
+@keyframes hvr-pulse-grow {
+    to {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+}
+
+.hvr-pulse-grow {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px transparent;
+}
+
+.hvr-pulse-grow:hover,
+.hvr-pulse-grow:focus,
+.hvr-pulse-grow:active {
+    -webkit-animation-name: hvr-pulse-grow;
+    animation-name: hvr-pulse-grow;
+    -webkit-animation-duration: 0.3s;
+    animation-duration: 0.3s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+}
+
+
+
+#flower {
+   
+
+}
+
+#flower:hover {
+    filter: blur(0px);
+    filter: sepia(70%);
+    border: 1px solid white;
+    -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
+    -moz-animation: neon1 1.5s ease-in-out infinite alternate;
+    animation: neon1 1.5s ease-in-out infinite alternate;
+}
+
+h2 {
+    text-align: center;
+}
+
+.tooltip-wrap {
+    position: relative;
+}
+
+.tooltip-wrap .tooltip-content {
+    text-align: center;
+    display: none;
+    position: absolute;
+    bottom: 50%;
+    left: 5%;
+    right: 5%;
+    padding: .5em;
+    font-family: 'bebas' !important;
+    font-size: 35px;
+    color: beige;
+
+}
+
+.tooltip-wrap:hover .tooltip-content {
+    display: block;
+        -webkit-animation: neon2 1.5s ease-in-out infinite alternate;
+    -moz-animation: neon2 1.5s ease-in-out infinite alternate;
+    animation: neon2 1.5s ease-in-out infinite alternate;
+}
+
+#butterfly {
+    display: none;
+    position: absolute;
+    left: 15em;
+    top: -18.5em;
+    width: 173px;
+    opacity: 0.7;
+    filter: sepia(70%);
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}
+
+;
+.jumbotron {
+    width: 800px;
+    margin: auto;
+}
+
+#butterflyNet {
+    position: relative;
+    display: inline;
+}
+
+@media screen and (max-width: 769px) {
+    #butterfly {
+        display: none !important;
+    }
+}
+
+@keyframes neon2 {
+    from {
+        text-shadow: 0 0 10px #f5f5f5, 0 0 20px #FFEB3B, 0 0 30px #fff, 0 0 40px #FF9800, 0 0 70px #FF9800, 0 0 80px #FF9800, 0 0 100px #FF9800, 0 0 850px #F44336;
+        color: white;
+    }
+    to {
+        text-shadow: 0 0 5px black, 0 0 10px white, 0 0 15px orange, 0 0 20px #FF5722, 0 0 35px red, 0 0 40px gold, 0 0 50px orange, 0 0 75px orange;
+        color: #E7B784;
+    }
+}
+
+.dropdown-menu {
+    font-family: 'bebas' !important;
+}
+
+.navbar-nav > li > .dropdown-menu {
+    background-color: black;
+}
+
+.dropdown-menu>li>a {
+    color: beige !important;
+}
+
+.dropdown-menu>li>a:focus,
+.dropdown-menu>li>a:hover {
+    color: white !important;
+    text-decoration: none;
+    background-color: #4f4f4f !important;
+}
+
+#hint{
+    text-align: center;
+        margin-top: -40px;
+    color: #757575;
+    font-size: 17px;
+    font-family: 'Amiko', sans-serif !important;
+    
+}
+
+.arrow {
+  position: relative;
+
+  margin-left:-20px;
+}
+
+.bounce {
+    -webkit-animation-name: bounce;
+    -moz-animation-name: bounce;
+    -o-animation-name: bounce;
+    animation-name: bounce;
+}
+.animated{-webkit-animation-fill-mode:both;
+-moz-animation-fill-mode:both;
+-ms-animation-fill-mode:both;
+-o-animation-fill-mode:both;
+
+            animation-iteration-count: infinite;
+       -moz-animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+
+animation-fill-mode:both;
+-webkit-animation-duration:2s;
+-moz-animation-duration:2s;
+-ms-animation-duration:2s;
+-o-animation-duration:2s;
+animation-duration:2s;
+}
+
+
+@-webkit-keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {-webkit-transform: translateY(0);} 40% {-webkit-transform: translateY(-30px);}
+    60% {-webkit-transform: translateY(-15px);}
+}
+
+@-moz-keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {-moz-transform: translateY(0);}
+    40% {-moz-transform: translateY(-30px);}
+    60% {-moz-transform: translateY(-15px);}
+}
+
+@-o-keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {-o-transform: translateY(0);}
+    40% {-o-transform: translateY(-30px);}
+    60% {-o-transform: translateY(-15px);}
+}
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+    40% {transform: translateY(-30px);}
+    60% {transform: translateY(-15px);}
+}
+
+p{
+    color: black;
+    text-align: justify;
+    font-size: 14px;
+}

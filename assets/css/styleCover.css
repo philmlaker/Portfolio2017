@@ -1,0 +1,271 @@
+/*FONTS:*/
+/*font-family: 'Bangers', cursive;
+font-family: 'Ruthie', cursive;
+font-family: 'Farsan', cursive;
+font-family: 'Passion One', cursive;*/
+
+@font-face{
+  font-family: 'bebas';
+  src: url('../../fonts/BEBAS.woff');
+  src: url('../fonts/BEBAS.woff') format('eot'),
+       url('../fonts/BEBAS.woff') format('woff'),
+       url('../fonts/BEBAS.woff') format('truetype'),
+       url('../fonts/BEBAS.woff') format('svg');
+}
+
+body{
+	background-color: #201b28;
+
+}
+
+#triangle-up {
+  width: 0;
+  height: 0;
+  border-left: 500px solid transparent;
+  border-right: 500px solid transparent;
+  border-bottom: 1000px solid grey;
+    position:absolute;
+    left:0; right:0;
+    top:0; bottom:0;
+  margin:auto;
+  z-index: 6;
+  opacity: 0.4;
+  
+  max-width:100%;
+  max-height:100%;
+  overflow:auto;
+}
+
+
+#triangle-down{ 
+width: 0;
+  height: 0;
+  border-left: 500px solid transparent;
+  border-right: 500px solid transparent;
+  border-top: 1000px solid black;
+    position:absolute;
+    left:0; right:0;
+    top:0; bottom:0;
+  margin:auto;
+  z-index: 6;
+  opacity: 0.4;
+  
+  max-width:100%;
+  max-height:100%;
+  overflow:auto;
+}
+
+#triangle-right{
+
+  height: 0;
+  border-top: 500px solid transparent;
+  border-right: 1000px solid black;
+  border-bottom: 500px solid transparent;  
+
+  position:absolute;
+    left:0; right:0;
+    top:0; bottom:0;
+  margin:auto;
+  z-index: 6;
+  opacity: 0.4;
+  
+  max-width:100%;
+  max-height:auto;
+  overflow:auto;
+}
+
+#triangle-left{
+
+  height: 0;
+  border-top: 500px solid transparent;
+  border-left: 1000px solid black;
+  border-bottom: 500px solid transparent;
+
+     position:absolute;
+    left:0; right:0;
+    top:0; bottom:0;
+  margin:auto;
+  z-index: 6;
+  opacity: 0.4;
+  
+  max-width:100%;
+  max-height:100%;
+  overflow:auto;
+}
+
+#cover{
+  /* Set rules to fill background */
+  min-height: 100%;
+  min-width: 1024px;
+
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+@media screen and (max-width: 1024px) { /* Specific to this particular image */
+  #cover {
+    left: 50%;
+    margin-left: -512px;   /* 50% */
+  }
+}
+
+div.jumbotron{
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.0);
+  font-family: 'bebas', cursive;
+	top: 248px;
+	position: relative;
+	color: white;
+  z-index: 10;
+
+
+
+
+}
+
+button {
+    background-color: rgba(245, 245, 245, 0);
+    position: relative;
+    top: 15px;
+    font-family: 'bebas', cursive;
+    font-size: 25px !important;
+    color: white;
+    border: white;
+        padding-top: 8px;
+        border: 2px white solid;
+    
+
+}
+
+button:hover{
+  color: black;
+  background-color: white;
+}
+
+h1{
+
+	font-size: 150px !important;
+	letter-spacing: 3px;
+  color: #fff;
+  margin: 1px 25px;
+  -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
+  -moz-animation: neon1 1.5s ease-in-out infinite alternate;
+  animation: neon1 1.5s ease-in-out infinite alternate;
+
+
+
+}
+h3{
+font-size: 18px;
+ font-family: 'bebas';
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #1b1b1b;
+  text-align: center;
+}
+/*
+h3{
+font-family: 'Farsan', cursive;
+color: cornflowerblue;
+font-size: 27px;
+}*/
+
+
+/*@-webkit-keyframes neon1 {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #FF1177, 0 0 70px #FF1177, 0 0 80px #FF1177, 0 0 100px #FF1177, 0 0 150px #FF1177;
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #FF1177, 0 0 35px #FF1177, 0 0 40px #FF1177, 0 0 50px #FF1177, 0 0 75px #FF1177;
+  }
+}*/
+
+
+/*REEEEEEEEEEESPONSIVE*/
+
+@media (max-width: 650px) {
+  #container {
+    width: 100%;
+  }
+  p {
+    font-size: 3.5em;
+  }
+  h1{
+    font-size: 70px !important;
+  }
+}
+
+
+#enterHome{
+
+
+}
+
+#instructions{
+  color:orange;
+  font-size: 14px;
+      margin-top: 39px;
+}
+
+
+#overlay{
+  z-index: 3;
+  position: absolute;
+   /* Set rules to fill background */
+  min-height: 100%;
+  min-width: 1024px;
+
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+
+  /* Set up positioning */
+  opacity: 0.1;
+  top: 0;
+  left: 0;
+  filter: contrast(100%) blur(1px);
+}
+
+#staticImage{
+  position: absolute;
+  height: 100%;
+  z-index: 5;
+  display: none;
+  width: 100%;
+  opacity: 0.5;
+
+}
+
+#staticImage2{
+  display: none;
+    position: absolute;
+  height: 100%;
+  z-index: 5;
+  display: none;
+  width: 100%;
+  opacity: 0.3;
+
+}
+
+#staticImage3{
+  display: none;
+    position: absolute;
+  height: 100%;
+  z-index: 5;
+  display: none;
+  width: 100%;
+  opacity: 0.6;
+
+}

@@ -1,0 +1,126 @@
+body{
+	    margin: 0px 0px;
+	    padding: 0px 0px;
+	    background-color: black !important;
+}
+.demo-2 .large-header {
+	background-color: black;
+	width: 100%;
+}
+
+div.container{
+  color: #d6d6d6;
+}
+
+div.container.demo-2{
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+
+}
+
+.arrow-up {
+
+width: 0;
+height: 0;
+border-style: solid;
+border-width: 0 100px 173.2px 100px;
+border-color: transparent transparent white transparent;
+  position: fixed;
+   top: 35%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -49.5%);
+  	background-color: #FFFFFF80;
+-webkit-animation: infinite-spinning 5s infinite; /* Safari 4+ */
+  -moz-animation:    infinite-spinning 5s infinite; /* Fx 5+ */
+  -o-animation:      infinite-spinning 5s infinite; /* Opera 12+ */
+  animation:         infinite-spinning 5s infinite; /* IE 10+, Fx 29+ */
+  animation-duration: 100s;
+}
+.arrow-up2 {
+
+width: 0;
+height: 0;
+border-style: solid;
+border-width: 0 100px 173.2px 100px;
+border-color: transparent transparent white transparent;
+  position: fixed;
+   top: 35%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-0.5%, 49%);
+  	background-color: #FFFFFF80;
+-webkit-animation: infinite-spinning 5s infinite; /* Safari 4+ */
+  -moz-animation:    infinite-spinning 5s infinite; /* Fx 5+ */
+  -o-animation:      infinite-spinning 5s infinite; /* Opera 12+ */
+  animation:         infinite-spinning 5s infinite; /* IE 10+, Fx 29+ */
+  animation-duration: 100s;
+
+}
+.arrow-up3 {
+
+width: 0;
+height: 0;
+border-style: solid;
+border-width: 0 100px 173.2px 100px;
+border-color: transparent transparent white transparent;
+  position: fixed;
+   top: 35%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-99.5%, 49%);
+  	background-color: #FFFFFF80;
+-webkit-animation: infinite-spinning 5s infinite; /* Safari 4+ */
+  -moz-animation:    infinite-spinning 5s infinite; /* Fx 5+ */
+  -o-animation:      infinite-spinning 5s infinite; /* Opera 12+ */
+  animation:         infinite-spinning 5s infinite; /* IE 10+, Fx 29+ */
+  animation-duration: 100s;
+
+}
+
+.arrow-up4 {
+  width: 0;
+height: 0;
+z-index:9;
+border-style: solid;
+border-width: 173.2px 100px 0 100px;
+border-color: white transparent transparent transparent;
+  position: fixed;
+   top: 35%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, 50%);
+    background-color: #FFFFFF80;
+-webkit-animation: infinite-spinning2 5s infinite; /* Safari 4+ */
+  -moz-animation:    infinite-spinning2 5s infinite; /* Fx 5+ */
+  -o-animation:      infinite-spinning2 5s infinite; /* Opera 12+ */
+  animation:         infinite-spinning2 5s infinite; /* IE 10+, Fx 29+ */
+  animation-duration: 200s;
+
+}
+@keyframes infinite-spinning2 {
+      0%   {border-color: white transparent transparent transparent;}
+
+    50% {border-color: black transparent transparent transparent;}
+  100%   {border-color: white transparent transparent transparent;}
+}
+@keyframes infinite-spinning {
+	    0%   {border-color: transparent transparent black transparent;}
+
+    50% {border-color: transparent transparent white transparent;}
+    100%   {border-color: transparent transparent black transparent;}
+}
+
+
+#icons{
+  height: 40px;
+  margin-left: -18px;
+}
+
+#iconbox{
+      margin-bottom: -20px;
+    margin-top: -10px;
+}
+
+*::-ms-backdrop, #icons { margin-left: -60px } /* IE11 */
